@@ -248,4 +248,8 @@ TEMPLATE
 
 ## 📚 What I Learned
 
-I learnt a lot in this project. I learnt how much I can learn from others and how rewarding it is to have a project just works. I also learnt how difficult it can be with bad communication and being unsure of certain things. However, my group ensured proper communication from the beginning. I realised my abilities in CAD improved alot more after this project. I learnt alot more CAD techinques from tutorials and online resources. I learnt alot of the manufacturing processes and techniques used in the industry and how my designs would affect the next stages of production. However, I still have alot to learn in this area and understand the best methods of designing for manufacture. I believe the improvement comes with experience and more exposure to different manufacturing methods and what works best in the products and materials being used. I could improve in my analyis and component choosing abilites as I did not do much of that in this project. I have little confidence in that area as I find it complicated and tough. However, it is  also a key component in design and analsysis and will be improving this area of my skillset by trying to do more of the component selection work in the next project.
+- Importance of clear communication within groups when integral parts are involved
+- New CAD techniques from video tutorials and online resources
+- Types of manufacturing processes and techniques used in the industry
+- How initial design of parts and selection of components afect next stages of production
+- I could improve in component selection from catalogues by taking initiative in volunteering for those tasks
