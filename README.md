@@ -1,62 +1,66 @@
 # Design and analysis of gearbox
 
 ## 📌 Overview
-This was a university group project which involved the group to create a conveyor belt system for a production line. This project was designed by our course manager to simulate a realistic working world scenario as an engineer. Our team was given sepcifications and requirements to be met and catalogues to choose our parts from. My group decided to split the work amongst ourselves in order to meet the deadline and create an even workload. <br>
+This was a university group project which involved designing and selecting components for a conveyor belt system in a production line. This project was designed by our course manager to simulate a realistic scenario as an engineer. Our team was given specifications and requirements to be met and catalogues to choose our parts from. My group decided to split the work amongst ourselves in order to meet the deadline and create an even workload. <br>
 
 My portion of the project included : <br>
 - Create a potential layout of the whole system
 - Clutch and brake analysis
 - 3D modelling of the gearbox housing
-- checking calculations
+- Reviewing and checking calculations
 
 ## 🎯 Objectives
-- The required output torque and speed of conveyor belt is met
-- The gearbox can be manufactured without complications
-- Drawings of parts were communicated effectively
+- The required output torque from motor to the conveyor belt is met
+- The gearbox, brakes, clutch and base plate are ready for manufacturing
+- Drawings of parts are communicated effectively
 
 ## 🛠 Tools & Concepts Used
 - Autodesk Inventor
-- Mechanics of Materials
+- Mechanics of materials calculations
 - Gear ratio calculations
 - GD&T
+- Catalogue selection
 
 ## 🔍 Methodology
 #### Layout
-The main layout of the whole system was my task. I did some research on existsing systems, mainly vehicles, to see what would be the best way to layout the brakes, clutch and the gearbox. In the end, I found out that having the clutch before the gearbox would be the best course of action. If maintenence was needed on the gearbox or the brakes, the motor did not have to be stopped if the clutch was engaged. Furthermore, the brake was placed right next to the conveyor belt as it is the main component that must be stopped when the brake is applied.
-<br>
+After researching current systems, with an emphasis on vehicles, I discovered that the best layout consisted of the clutch located before the gearbox. This is because during maintenence of the gearbox or the brakes, the clutch can be engaged without having to start and stop the motor. The brake location was next to the conveyor belt. As the brake is needed for immediate stoppage of the conveyor belt, it was required to be placed as close to the conveyor belt as possible. <br>
 
 #### Clutch and brake analysis
-I leanrt about brake and clutch analysis in the lectures at university. However, as I used to be quite interested in cars back in highschool, I had a better understanding of these components compared to my peers. Therefore, I took up the clutch and brake analysis portion of the project. The calculations and decision process can be seen in the images portion of this repository. The diiffcult part in clutch and brake analysis was choosing the type of material for friction pads. I steered away from asbestos and from high end ceramic pads due to health and costs for production. I eventualy went for a kevlar/cast iron steel pad material due to a good temperature resistance, ability to resist crack and wear and the dry coefficient of friction was not too large, which would result in a smooth engagement. The brakes also used a non abestos organic material. This particular material would not be hazardous and be functional. The material chosen was also not expensive, which reduced costs in manufacturing and maintenence.
-<br>
+I took up brake and clutch analysis due to my past interest in cars in highschool and having a better understanding of those components. The challenges I faced in the clutch and brake analysis was choosing the type of material for friction pads. I decided to choose a mid range material of kevlar/cast iron steel friction pad material for the clutch due to a good temperature resistance, ability to resist crack and wear and the dry coefficient of friction was not too large, which would result in a smooth engagement. I chose a non abestos organic material for the brake pads due to health and safety reasons, while being inexpensive. <br>
+
 
 #### 3D modelling of the gearbox housing and bottom plate
-THe 3D modelling ang of the gearbox was my biggest ask in this project. It was the biggest time constraint we had as a group, and with little to no practice or tutorials on how to design a proper gearbox, it was a huge challenge for me. Personally, I found it difficult to understand how the bearings and seals would fit inside a gearbox, as I have never been exposed to it. There was a lot of on the job research and learning I had to do. Furthermore, my alignment of the openings and bearing supports could only begin after my groupmates had completed thier shaft modeling. Once all the shafts and components of the shafts were completed, I had to create sub assemblies of each shaft. I then created a new assembly which would finalise how the shafts would sit and thier postioning in the gearbox. Once the layout was completed and finalised with my team mates, I began the sketch and modelling of the gearbox.
-<br>
 
-The gearbox itself was very tricky as I had to think a few steps ahead on what things may need to be added as I went along. However, despite those counter measures, I had some mistakes which would be too difficult to fix, and I needed to restart the whole gearbox. However, with proper dimensions from the previous iteration, the process of making a new gearbox was quicker. This time, with proper CAD techniques, I managed to make a more stabile design which was also easier to edit. As I went along with making the gearbox body, I had to add in areas for the seals to sit flush against the body, bearing mounts for the bearings to sit, take into consideration for safety and chamfering edges, adding in M6 screw holes along the edges for sealing the top and bottom plates, while taking into consideration as to how the manufacturing process would be like. Before our final model, I had filetted all the edges so there would be no sharp edges. However, my group mate suggested to fillet them instead so that manufacturing would be quicker while incorporating non sharp edges. I agreed and filetted the edges for the final model. After everything was completed, I quickly drew up the motor and conveyor belt to get a layout of the full system.
-<br>
+The modelling of the gearbox housing was the most challenging aspect of this project. It was difficult to visualise how seals, bearings and the shafts could fit inside the gearbox and stay sealed. Therefore, research during the modelling phase was needed to understand existsing gearboxe designs and where each component was placed within the housing. The proceedure of modelling the housing began with all the complete shaft assemblies with seals and gears attached. After gauging the relative size of how the shafts fit, the housing could be modelled with the required tolerances and locations of the bearing supports. However, due to unforseen adjustments and bad modellling proceedures, there were a couple of modelling iterations of the gearbox housing. Manufacturability and ease of assembly and maintenence was taken into consideration during the modelling phase of the housing. The outer housing and bearing support in the housing were chamfered for saftey while being easy to manufacture. 3 M6 screw holes were added to the housing on the bottom and top plate for attachment to each other. <br>
 
-Once the full system was created, I found out that the whole system was not aligned flat. To tackle this, I desined the base plate to have a bend so that it would allow the components to be aligned. I had to then figure out where all the bolt holes needed to be while deisgning the plate so components could attach to the plate. For th holes on te plate, we decided to make them slots so that there would be more adjustability and tolerances during assembly.
-<br>
+To ensure that the gearbox and motor were fastened in place, I had to design a base plate. This was particularly challenging as the gearbox and motor were not aligned. A step base plate was designed out of mild steel to ensure that the motor and gearbox was aligned. The holes in the plate for the gearbox and motor to be attached to consisted of slots for adjustability and tolerances during assembly. <br>
 
 #### Checking calculations
-While waiting for my groupmates to complete thier component selections and starts modelling the shafts and gears, I decided to help out by rechecking all our calculations to ensure we were on the right path. In the end, I found out that we did make a calculation error and we needed to change the number of gears we were using. The group appreciated my checks at it ensured that we did not proceed any further with wrong information. 
+While my groupmates were electing components and modelling the shafts and gears, I decided to review our calculations. I discovered that we made a calculation error regarding our gears. This was an vital error spotted as it affected component slection and the number of gears used. The group appreciated the checks and it showed us how important cross checking of work could prevent expensive costs in a high stakes environment.
 
 <br>
 
 ## 📊 Results
 
-The result of this project was a success. We managed to find an appropriate gear ratio and selected gears, bearings and seals that fit. The gearbox housing was designed well, but the material reduction could be better. Unfortuantely, we did not learn how to design an effective gear box housing and proper CAD techinques for the gears and shafts due to a restriction of time. Regardless, the gearbox housing was still functional, and could hold all the components. In this project, we did not need to 3D model brakes and clutches in detail. However, the material selection and our process of choosing those materials were graded and approved by our lecturers. Below are the images from our project and some screenshots from my notebook.
+The result of this project was a success. We managed to find an appropriate gear ratio and selected gears, bearings and seals that fit. The gearbox housing was designed well, but could be improved with material reduction. In this project, we did not need to model brakes and clutches in detail. However, the material selection and our process of choosing those materials were graded and approved by our lecturers. Below are the images from our project and some screenshots from my notebook.
 
 ## 📸 Project Images
 
 ### Notebook Images
-The housing was modelled and designed by me. The shaft, gear and seal were designed by my groupmate. However, the drawing was drawn by me. The internal gearbox and gear layout was decided as a group, but included in this repository for overall understanding.
+The housing was modelled and designed by me. The shafts, gears and seals were designed by my groupmates. However, one full shaft assembly drawing is by me. The internal gearbox and gear layout was decided as a group, but included in this repository for overall understanding.
 
 <br>
 
 #### Main Calculation checks
 ![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/calcs%20checks.png)
+
+<p align="center">
+  <img src="images/calcs checks.png" width="400">
+</p>
+
+<p align="center">
+  <i>Figure 1: Full calculation checks</i>
+</p>
 
 <br>
 
@@ -95,6 +99,15 @@ The housing was modelled and designed by me. The shaft, gear and seal were desig
 ![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/shaft%20drawing%203.png)
 
 <br>
+
+TEMPLATE
+<p align="center">
+  <img src="images/your_image_name.jpeg" width="400">
+</p>
+
+<p align="center">
+  <i>Figure 1: Your caption here</i>
+</p>
 
 ## 📚 What I Learned
 
