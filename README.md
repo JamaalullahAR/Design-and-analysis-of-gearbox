@@ -31,7 +31,7 @@ I took up brake and clutch analysis due to my past interest in cars in highschoo
 
 #### 3D modelling of the gearbox housing and bottom plate
 
-The modelling of the gearbox housing was the most challenging aspect of this project. It was difficult to visualise how seals, bearings and the shafts could fit inside the gearbox and stay sealed. Therefore, research during the modelling phase was needed to understand existsing gearboxe designs and where each component was placed within the housing. The proceedure of modelling the housing began with all the complete shaft assemblies with seals and gears attached. After gauging the relative size of how the shafts fit, the housing could be modelled with the required tolerances and locations of the bearing supports. However, due to unforseen adjustments and bad modellling proceedures, there were a couple of modelling iterations of the gearbox housing. Manufacturability and ease of assembly and maintenence was taken into consideration during the modelling phase of the housing. The outer housing and bearing support in the housing were chamfered for saftey while being easy to manufacture. 3 M6 screw holes were added to the housing on the bottom and top plate for attachment to each other. <br>
+The modelling of the gearbox housing was the most challenging aspect of this project. It was difficult to visualise how seals, bearings and the shafts could fit inside the gearbox and stay sealed. Therefore, research during the modelling phase was needed to understand existsing gearboxe designs and where each component was placed within the housing. The proceedure of modelling the housing began with all the complete shaft assemblies with seals and gears attached. After gauging the relative size of how the shafts fit, the housing could be modelled with the required tolerances and locations of the bearing supports. However, due to unforseen adjustments and bad modellling proceedures, there were a couple of modelling iterations of the gearbox housing. Manufacturability and ease of assembly and maintenence were taken into consideration during the modelling phase of the housing. The outer housing and bearing support in the housing were chamfered for saftey while being easy to manufacture. 3 M6 screw holes were added to the housing on the bottom and top plate for attachment to each other. <br>
 
 To ensure that the gearbox and motor were fastened in place, I had to design a base plate. This was particularly challenging as the gearbox and motor were not aligned. A step base plate was designed out of mild steel to ensure that the motor and gearbox was aligned. The holes in the plate for the gearbox and motor to be attached to consisted of slots for adjustability and tolerances during assembly. <br>
 
@@ -52,10 +52,8 @@ The housing was modelled and designed by me. The shafts, gears and seals were de
 <br>
 
 #### Main Calculation checks
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/calcs%20checks.png)
-
 <p align="center">
-  <img src="images/calcs checks.png" width="400">
+  <img src="images/calcs checks.png" width="800">
 </p>
 
 <p align="center">
@@ -65,49 +63,188 @@ The housing was modelled and designed by me. The shafts, gears and seals were de
 <br>
 
 #### Clutch Analysis
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/clutch%20drawing.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/clucth%20calcs.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/clutch%20hydraulic.png)
+
+<p align="center">
+  <img src="images/clutch drawing.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 2: Visual drawing of clutch system</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/clucth calcs.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 3: Calculations for clutch friction pads</i>
+</p>
+
+
+<!-- -->
+
+<p align="center">
+  <img src="images/clutch hydraulic.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 4: Hydraulic system of clutch system</i>
+</p>
+
 
 <br>
 
 #### Brake analysis
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/brake%20calcs.png)
+
+<p align="center">
+  <img src="images/brake calcs.png" width ="800">
+</p>
+
+<p align="center">
+  <i>Figure 5: Calculation for brake friction pads</i>
+</p>
 
 <br>
 
 #### Internal gearbox and gear layout
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/cross%20section%20notebook%20sketch.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/gear%20overview%20checks.png)
+
+<p align="center">
+  <img src="images/cross section notebook sketch.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 6: Cross section of housing drawing</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/gear overview checks.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 7: Gear layout drawings</i>
+</p>
+
 
 <br>
 
 ### 3D modelling
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/gearbox%20CAD%20img.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/Bottom%20plate%20CAD.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/full%20shot%20(1).jpg)
+
+<p align="center">
+  <img src="images/gearbox CAD img.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 8: 3D model of bottom housing with gears, shafts and bearings</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/Bottom plate CAD.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 9: Side view showing step bottom plate</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/full shot (1).jpg" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 10: 3D model of full layout of system</i>
+</p>
+
+<!-- -->
+
 
 <br>
 
 ### Drawings
 
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/full%20assembly%20drawing.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/gearbox%20drawing.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/base%20plate%20drawing.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/shaft%20drawing%201.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/shaft%20drawing%202.png)
-![](https://github.com/Jamaal786/Design-and-analysis-of-gearbox/blob/main/images/shaft%20drawing%203.png)
+<p align="center">
+  <img src="images/full assembly drawing.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 11: Full assembly drawing</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/gearbox drawing.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 12: Gearbox drawing </i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/base plate drawing.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 13: Base plate drawing</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/shaft drawing 1.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 14: Output shaft assembly drawing </i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/shaft drawing 2.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 15: Output shaft drawing</i>
+</p>
+
+<!-- -->
+
+<p align="center">
+  <img src="images/shaft drawing 3.png" width="800">
+</p>
+
+<p align="center">
+  <i>Figure 16: Gear drawing</i>
+</p>
+
+<!-- -->
+
+
 
 <br>
 
+<!--
 TEMPLATE
 <p align="center">
-  <img src="images/your_image_name.jpeg" width="400">
+  <img src="images/your_image_name.jpeg" width="800">
 </p>
 
 <p align="center">
   <i>Figure 1: Your caption here</i>
 </p>
+
+<!-- -->
+
+
 
 ## 📚 What I Learned
 
